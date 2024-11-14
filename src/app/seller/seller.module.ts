@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { SellerRoutingModule } from './seller-routing.module';
 import { SellerComponent } from './seller.component';
+import { SellerDashboardComponent } from './pages/seller-dashboard/seller-dashboard.component';
 
 
 @NgModule({
   declarations: [
-    SellerComponent
+    SellerComponent,
+    SellerDashboardComponent
   ],
   imports: [
     CommonModule,
